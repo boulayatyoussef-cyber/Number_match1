@@ -1,4 +1,4 @@
-# 🧮 Solveur OCaml de Grille Numérique
+# 🧮 Solveur OCaml de Number match
 
 Ce projet implémente un solveur pour un jeu de grille numérique en **OCaml**, conçu pour être exécuté dans un terminal.  
 Le programme utilise une approche de **backtracking avec mémorisation** pour trouver toutes les solutions possibles et optimiser la recherche.
@@ -13,7 +13,7 @@ Le solveur s’exécute dans un terminal et demande certains paramètres à l’
 
 ```bash
 ocamlfind ocamlc -package unix -linkpkg -o solveur numberr.ml
-Exécution
+### Exécution
 bash
 Copier le code
 ./solveur
